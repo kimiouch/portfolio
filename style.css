@@ -89,8 +89,9 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 .email-link:hover {
@@ -109,5 +110,5 @@ p {
   position: fixed;
 }
 #pagestarter {
-    margin-top: 60px;
+    margin: 65px 0;
 }
