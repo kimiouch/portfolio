@@ -108,3 +108,6 @@ p {
 .fixed-top {
   position: fixed;
 }
+#pagestarter {
+    margin-top: 60px;
+}
