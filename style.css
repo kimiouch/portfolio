@@ -96,6 +96,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: darkgreen;
 }
 .mypng {
   background-color: #f2fef3;
