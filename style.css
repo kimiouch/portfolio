@@ -109,6 +109,17 @@ p {
 .fixed-top {
   position: fixed;
 }
-#pagestarter {
-    margin: 65px 0;
+#contant {
+  margin: 65px 0;
+}
+.weather-app-site {
+  background-color: var(--primary-color);
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  border-radius: 4%;
+  box-shadow: var(--box-shadow);
+}
+.weather-app-site:hover {
+  color: #f2fef3;
 }
