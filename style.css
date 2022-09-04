@@ -1,6 +1,6 @@
 :root {
   --primary-color: seagreen;
-  --secondary-color: #c6e095;
+  --secondary-color: hsl(124, 88%, 94%);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -55,9 +55,10 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 20px;
 }
 .contact-link:hover {
-  background: #c6e095;
+  background: var(--secondary-color);
   color: rgb(0, 0, 0);
 }
 
@@ -96,14 +97,12 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-  color: darkgreen;
+  color: rgb(0, 89, 0);
 }
 .mypng {
-  background-color: #f2fef3;
   box-shadow: var(--box-shadow);
 }
 .shecodes-yoga {
-  background-color: #f2fef3;
   box-shadow: var(--box-shadow);
 }
 
@@ -113,15 +112,8 @@ p {
 #contant {
   margin: 65px 0;
 }
-.weather-app-site {
-  background-color: var(--primary-color);
-  text-decoration: none;
-  color: white;
-  padding: 7px;
-  border-radius: 4%;
-  box-shadow: var(--box-shadow);
-}
-.weather-app-site:hover {
+
+.app-site:hover {
   color: #f2fef3;
 }
 
@@ -129,7 +121,7 @@ p {
   margin: 0 25px;
   padding: 10px 14px;
   font-size: 18px;
-  background-color: #f2fef3;
+  background-color: hsl(125, 86%, 97%);
   border-radius: 10px;
   color: var(--primary-color);
   border: solid 1px var(--primary-color);
@@ -151,4 +143,7 @@ footer p a {
 footer p a:hover {
   text-decoration: underline;
   color: darkgreen;
+}
+.row {
+   align-items: center;
 }
