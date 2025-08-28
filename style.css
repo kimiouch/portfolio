@@ -1,8 +1,9 @@
 :root {
-  --primary-color: seagreen;
-  --secondary-color: hsl(124, 88%, 94%);
+  --primary-color: #6ca281;
+  --secondary-color: #d5e4df;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 body {
   margin: 60px auto;
@@ -49,6 +50,19 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+
+.btn .about-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: 20px;
+}
+
+.btn :hover {
+  background: var(--secondary-color);
+  color: rgb(0, 0, 0);
 }
 
 .contact-link {
